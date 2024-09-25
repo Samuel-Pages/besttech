@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,8 +14,9 @@
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="assets/css/leadmark.css">
 	<link rel="stylesheet" href="style.css">
-	
-		
+	<style>
+      #more {display: none;}
+    </style>
 	
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" >
@@ -455,15 +457,19 @@
                             <br> 3. Stock up on healthy desktop snacks
                             <br> 4. Stay hydrated
                             <br> 5. Make fruits your regularity (fruit salad)
+							<span id="span1">...</span><span class="mybox1" id="mybox1id">
                             <br> 6. Plan ahead – Meal plan for the week
                             <br> 7. Master the “No, thank you.”
                             <br> 8. Don’t eat lunch in front of your desk
                             <br> 9. Keep moving
-                            <br> 10.Exercise</p>
-                            <a href="javascript:void(0)" class="small text-muted">Go To The Article</a>
+                            <br> 10.Exercise
+							<p></span>
+                            <button id="mybuttonid" onclick="changeReadMore()">Read More</button>
+							<script src="script.js"></script>
                         </div>
                     </div>
                 </div>
+				
                 <div class="col-md-4">
                     <div class="card border-0 mb-4">
                         <img src="imgs/coffee.webp" alt="" class="card-img-top w-100" style=" border-radius: 20%;">
@@ -471,27 +477,32 @@
                             <h6 class="card-title"> 5 health benefits of drinking coffee at work</h5>
                             <p><b>45% of coffee consumption is done in the workplace;</b>
                             <br><i><b>Mood Booster:</b></i>
-                            Coffee in the office can boost your mental wellbeing and enhance performance at work.
-                            <br><i><b>Reduce Risk of Disease:</b></i>
-                            Accordin to research, individuals drinking 2-4 cups of coffee per day had a 20% lower risk of heart disease than those drinking fewer per day.
+                            Coffee in the office can boost your mental wellbeing. 
+							<span id="span1">...</span><span class="mybox1" id="mybox1id1"> and enhance performance at work.
+                            <i><b>Reduce Risk of Disease:</b></i>
+                            According to research, individuals drinking 2-4 cups of coffee per day had a 20% lower risk of heart disease than those drinking fewer per day.
                             <br><i><b>Source of Antioxidants:</b></i>
-                            Contrary to popular belief, coffee provides more antioxidants than green tea, studies show that coffee is the biggest provider of antioxidants in the Western diet, along side whilst fruits and vegetable!
+                            Contrary to popular belief, coffee provides more antioxidants than green tea,
+							studies show that coffee is the biggest provider of antioxidants in the Western diet, alongside whilst fruits and vegetable!
                             <br><i><b>Stress Relief:</b></i>
                             Feeling stressed? Grab a coffee!
-                            Over 80% of those who take coffee breaks at work feels it helps relieve stress,  then again creating an interractive section for workers.
-
-                            </p>
-                            <a href="javascript:void(0)" class="small text-muted">Go To The Article</a>
+                            Over 80% of those who take coffee breaks at work feels it helps relieve stress,  then again creating an interactive section for workers.
+                            </p></span>
+							<button id="mybuttonid1" onclick="changeReadMore1()">Read More</button> 
+                            <script src="script.js"></script>							
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4">
                     <div class="card border-0 mb-4">
                         <img src="imgs/Fruit+juice.webp" alt="" class="card-img-top w-100" style=" border-radius: 20%;">
                         <div class="card-body">                         
                             <h6 class="card-title">Healthy drinks to keep you up to speed at the office</h6>
                             <p><b><i>Orange carrot JUICE:</i></b>
-                                Vitamin C is abundant in oranges, whereas Vitamin A is abundant in carrots. This delicious combo may help to boost the immune system while also acting as antioxidants to protect your skin and eye. Carrot juice can help to minimise brain cell inflammation and boost memory. It is one of the best drinks good for brain health.
+                                Vitamin C is abundant in oranges, whereas Vitamin A is abundant in carrots. This delicious combo may help to boost the immune
+								 system 
+								while  also acting as antioxidants to protect your skin and eye. Carrot juice can help to minimise brain cell <span id="dots">...</span><span id="more">inflammation and boost memory. It is one of the best drinks good for brain health.
 
                                 <br><b><i>Grape:</i></b>
                                 Grape juice is great on its own as a source of anthocyanins, which enhance brain function. It also supports heart and digestive health. But compared to other fruits, it contains more sugar and less fiber.
@@ -502,15 +513,15 @@
 
                                 <br><b><i>Green Juices:</i></b>
                                 Green juices are usually a combination of different vegetables, such as kale, celery, cucumber, and carrot. Compared to one-ingredient options, these provide more benefits depending on the mix you choose. It can either boost immunity, improve gut health, or contribute to weight management.
-                                                                                            </p>
-                            <a href="javascript:void()" class="small text-muted">Go To The Article</a>
-                        </div>
+                                </p></span>
+								<button onclick="myFunction()" id="myBtn">Read more</button>
+				          </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End of Blog Section -->
+    </section>   
+  <!-- End of Blog Section -->
 
     <!-- Testmonial Section -->
     <section class="section" id="testmonial">
@@ -608,6 +619,61 @@
     </section>
 	<!-- end of registration part-->			    
 
+<!-- start of frequently asked questions part-->
+	
+         <section class="section" id="testmonial">
+        <div class="container">
+            <h6 class="section-title text-center mb-0">Frequently asked questions</h6>
+            <h6 class="section-subtitle mb-5 text-center">what you may want to know about us</h6>
+            <div class="row">
+             
+				<div class="card border-0 mb-4">
+                        
+                        <div class="card-body">                         
+                            <h6 class="card-title">What our clients ask ???</h6>
+                                <p><b><i>1.	Who are we?</i></b>
+                                <span><br>We are a print press, a cybercafé as known by many.
+                                <br><b><i>2. What do we do?</i></b>
+									<br>We engage in numerous kinds of print, photo copy and graphics design activities.
+									<br>We print in A3, A4, A5, card print id card designs and print, lamination, sticker printing.
+									<br>We type and print documents, scanning
+									<span id="span1">...</span><span class="mybox1" id="mybox1id2"> passport of different sizes and lots more.
+                                <br><b><i>3.	How to get document across to us?</i></b>
+								<br>Simply click the copy button on the site landing page for mail to copy the email address then past on your email. 
+								<br>Next, attach you document to the area then click send, with the work description.
+								Or you can also click the copy button on the same landing page of this site for the phone/whatsapp number. Save the number and then forward the document to us with the required job description.
+								Better still type besttechventures2022@gmail.com
+								<br>Or type 08023642432 and save on whatsapp, and send the document.
+								<br>NOTE: THE BEST HAS A POLICY OF CONFIDENTIALITY OF DOCUMENT, SO ALL MAILS ARE DELETED AFTER JOB IS DONE, OR ELSE ASKED TO BE KEPT.
+								<br>As to this you can as to see your document get deleted for comfort. 
+                                <br><b><i>4.	Our present location?</i></b>
+                                <br>3A, Ogunnusi Road, Opposite WAEC Testing Centre, Aguda, Ogba, Lagos, Nigeria
+								
+								<br><b><i>5. Working hours?</i></b>
+                                <br>We are open from 8am to 6pm (Monday do Saturday) this to keep our employee and staffs fit and prepared for the next day. 
+								<br>And emergency job after the working hour may attract extra charge as the case may be.
+								<br><b><i>	6. Employment?</i></b>
+                                <br>D best advocate to employment of staffs and workers who meet the requirements. 
+								<br>Send your cv to the email besttechventures2022@gmail.com or 08023642432 via whatsapp.
+								<br>We will reach out to you if our requirements are met.
+
+                                <br><b><i>7.	How to pay for job done?</i></b>
+                                <br>Simply copy the Acc No       8023642432
+			                                      <br>bank:        Opay
+			                                      <br>Acc name: Vincent chibueze   
+                                                  <br>Else asked to use another account.
+                                 </p></span></span>
+							<button id="mybuttonid2" onclick="changeReadMore2()">Read More</button> 
+                            <script src="script.js"></script>
+				          </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <!-- end of frequently asked questions part-->
+				    
     <!-- Contact Section -->
     <section id="contact" class="section has-img-bg pb-0">
 	<h6 class="section-title text-center">Contact us On</h6>
