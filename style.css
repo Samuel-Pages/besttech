@@ -22,3 +22,14 @@ button:hover{
    cursor:pointer;
     background: -webkit-linear-gradient(top, #DF9F28, #FDE08D, #8f6B29);
 background: linear-gradient(top, #DF9F28, #FDE08D, #8f6B29);
+}
+ .mybox1 {
+    display: none;
+}
+
+
+div,
+span {
+    font-size: 18px;
+}
+
